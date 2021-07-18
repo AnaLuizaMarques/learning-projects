@@ -1,0 +1,5 @@
+nc = input('Qual seu nome completo?')
+nc1 = nc.split()
+nc2 = (nc1[0])
+nc3 = (nc1[-1])
+print('Primeiro nome: {} e o último nome: {}'.format(nc2, nc3))
