@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -15,15 +15,23 @@ programa
 
 		IMC = peso / mat.potencia(altura, 2)
 
-		se (IMC <= 16)
-			escreva("Seu IMC é", IMC, "e é considerado anorexia")
-		se (IMC <= 25)
-			escreva("Seu IMC é", IMC, "e é considerado saudavel")
-		se (IMC >= 26)
-			escreva("Seu IMC é", IMC, "e é considerado sobrepeso")
-		se (IMC >= 32)
-			escreva("Seu IMC é", IMC, "e é considerado obesidade mórbida")
+		se (IMC < 18.5)
+			escreva("Seu IMC é ", IMC, "e é considerado anorexia.")
+			
+		se (IMC >= 18.6 e IMC <= 25)
+			escreva("Seu IMC é ", IMC, "e é considerado saudavel.")
+			
+		se (IMC >= 25.1 e IMC <= 30)
+			escreva("Seu IMC é ", IMC, "e é considerado sobrepeso.")
 		
+		se (IMC >= 30.1 e IMC <= 35)
+			escreva("Seu IMC é ", IMC, "e é considerado obesidade.")
+		
+		se (IMC >= 35.1 e IMC <= 40)
+			escreva("Seu IMC é ", IMC, "e é considerado obesidade severa.")
+		
+		se (IMC >= 40.1)
+			escreva("Seu IMC é ", IMC, "e é considerado obesidade mórbida.")
 	
 
 	
@@ -34,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 471; 
+ * @POSICAO-CURSOR = 850; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
