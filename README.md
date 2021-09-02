@@ -3,7 +3,7 @@ This is a repository with all my learning projects. Here are my anotations, less
 
 ---
 
-1. [PDF Anotations: Git and GitHub, HTTP, Kotlin Introduction and Logic Programming.](Anotações)
+1. [PDF Annotations: Git and GitHub, HTTP, Kotlin Introduction and Logic Programming.](Anotações)
 
 2. [Basic calculator in Kotlin Linguage.](Kotlin/src)
 
